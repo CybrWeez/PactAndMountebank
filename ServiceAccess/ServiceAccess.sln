@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceAccess", "ServiceAccess\ServiceAccess.csproj", "{089813E3-3718-4791-960D-88FCB86B14CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceAccess.PactTest", "ServiceAccess.PactTest\ServiceAccess.PactTest.csproj", "{6734D38F-3A06-4DBD-BACB-E762D05309E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{089813E3-3718-4791-960D-88FCB86B14CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{089813E3-3718-4791-960D-88FCB86B14CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{089813E3-3718-4791-960D-88FCB86B14CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{089813E3-3718-4791-960D-88FCB86B14CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6734D38F-3A06-4DBD-BACB-E762D05309E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6734D38F-3A06-4DBD-BACB-E762D05309E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6734D38F-3A06-4DBD-BACB-E762D05309E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6734D38F-3A06-4DBD-BACB-E762D05309E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D6AA907-3ACC-49FA-B918-83D0CB6F5064}
+	EndGlobalSection
+EndGlobal

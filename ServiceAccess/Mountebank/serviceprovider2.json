@@ -1,0 +1,41 @@
+{
+  "port": 4545,
+  "protocol": "http",
+  "name": "serviceprovider stub",
+  "stubs": [
+    {
+      "responses": [
+        {
+          "is": {
+            "body": "value"
+          }
+        }
+      ],
+      "predicates": [
+        {
+          "equals": {
+            "method": "GET",
+            "path": "/api/values/1"
+          }
+        }
+      ]
+    },
+    {
+        "responses": [
+          {
+            "is": {
+              "body": "bad request yo",
+              "statusCode": 400
+            }
+          }
+        ],
+        "predicates": [
+          {
+            "equals": {
+              "method": "GET"
+            }
+          }
+        ]
+      }
+  ]
+}

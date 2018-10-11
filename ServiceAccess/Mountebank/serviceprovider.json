@@ -1,0 +1,23 @@
+{
+  "port": 4545,
+  "protocol": "http",
+  "name": "serviceprovider stub",
+  "stubs": [
+    {
+      "responses": [
+        {
+          "is": {
+            "body": "value"
+          }
+        }
+      ],
+      "predicates": [
+        {
+          "equals": {
+            "method": "GET"
+          }
+        }
+      ]
+    }
+  ]
+}

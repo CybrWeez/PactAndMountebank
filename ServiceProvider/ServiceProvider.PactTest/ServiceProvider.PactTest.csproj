@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ServiceProvider\ServiceProvider.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="NUnit" Version="3.10.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.10.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.7.2" />
+    <PackageReference Include="PactNet" Version="2.3.3" />
+    <PackageReference Include="PactNet.Windows" Version="2.3.3" />
+  </ItemGroup>
+</Project>
